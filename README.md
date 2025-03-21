@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+Приглашение
+Здравствуйте! Готовы ли вы выполнить тестовое задание?
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+У нас в вакансии об этом написано.
 
-## Setup
+Задача: Создать проект для отслеживания и визуализации цен на биткоин.
 
-Make sure to install dependencies:
+Шаги: Разработать Nuxt.js приложение (front/back) для отображения исторических данных о ценах на биткоин. Пользователь должен иметь возможность выбирать период отображения данных: день, неделя, месяц, год, а также задавать собственный период. График изменения цены должен быть доступен с выбором периода. Данные следует извлекать из базы данных (любая база на выбор).
+Создать сервис для сбора данных. Сервис должен получать цены с любой биржи через их API или из запроса по адресу https://api.coindesk.com/v1/bpi/currentprice.json. Полученные данные необходимо сохранять в базу данных (любая база на выбор).
+Обернуть всю систему в Docker Compose.
 
-```bash
-# npm
-npm install
+Выполнение:
+Предоставить ссылку на репозиторий с кодом выполненного задания https://github.com/
 
-# pnpm
-pnpm install
+Как пришлешь тестовое задание, мы проведем онлайн собеседование с нашим тимлидом. Собеседование займет минут 20-30, на нем мы пообщаемся о технологиях и решим небольшую алгоритмическую задачку.
 
-# yarn
-yarn install
+Можешь ознакомиться с тестовым, и оценить, как скоро сможешь его прислать?
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+\*На выполнение тестового задания у Вас уйдет не более двух часов. Мы ценим время кандидатов и не даем объемные тестовые. Нам важно увидеть первичные навыки работы.
